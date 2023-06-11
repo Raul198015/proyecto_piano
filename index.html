@@ -34,6 +34,12 @@
     <div class="key white" id="A3"><p>A</p><p>La</p></div>
     <div class="key black" id="A3sharp"><p>A#</p><p>B&#x266d;</p><p>La#</p><p>Si&#x266d;</p></div>
     <div class="key white" id="B3"><p>B</p><p>Si</p></div>
+    <form>
+      <label for="volumen">Volumen:</label>
+      <input type="range" id="volumen" name="volumen" min="0" max="100" value="50" step="1" oninput="actualizarValor()">
+      <br>
+      <span id="valor"></span>
+    </form>
   </div>
 
 
@@ -63,6 +69,9 @@
 <audio id="clave23" src="sonidos/clave23.mp3"></audio>
 <audio id="clave24" src="sonidos/clave24.mp3"></audio>
 </div>
+
+
+ 
 
 
 

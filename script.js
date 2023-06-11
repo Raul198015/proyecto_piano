@@ -459,4 +459,8 @@ div24.addEventListener('mousedown', function() {
     div24.addEventListener('mouseup' , function(evento) {
       div24.style.backgroundColor = 'white';
     })
-    
+
+    function actualizarValor() {
+      var volumen = document.getElementById("volumen").value;
+      document.getElementById("valor").innerHTML = volumen;
+    }

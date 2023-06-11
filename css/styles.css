@@ -31,3 +31,22 @@
   justify-content: flex-end;
 }
 
+.volume-bar {
+  width: 200px;
+  height: 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+  position: relative;
+}
+
+#volume-slider::-webkit-slider-thumb {
+
+
+width: 20px;
+height: 20px;
+background-color: #007bff;
+border-radius: 50%;
+cursor: pointer;
+position: relative;
+z-index: 3;
+}
