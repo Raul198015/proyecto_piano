@@ -27,111 +27,135 @@ let div24 = document.querySelector('#B3');
 
 document.addEventListener('keydown',  function(evento) {
   if (evento.code === 'KeyZ') {
-    div1.style.backgroundColor = 'yellow';
+    div1.style.backgroundColor = 'orange';
+    div1.style.color = 'blue';
     var audio = new Audio('./sonidos/clave01.mp3');
     audio.play();
     } else if (evento.code === 'KeyX') {
     div2.style.backgroundColor = 'red';
+    div2.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave02.mp3');
     audio.play();
     }
   if (evento.code === 'KeyC') {
-    div3.style.backgroundColor = 'yellow';
+    div3.style.backgroundColor = 'orange';
+    div3.style.color = 'blue';
     var audio = new Audio('./sonidos/clave03.mp3');
     audio.play();
     } else if (evento.code === 'KeyV') {
     div4.style.backgroundColor = 'red';
+    div4.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave04.mp3');
     audio.play();
     }
   if (evento.code === 'KeyB') {
-    div5.style.backgroundColor = 'yellow';
+    div5.style.backgroundColor = 'orange';
+    div5.style.color = 'blue';
     var audio = new Audio('./sonidos/clave05.mp3');
     audio.play();
     } else if (evento.code === 'KeyN') {
-    div6.style.backgroundColor = 'yellow';
+    div6.style.backgroundColor = 'orange';
+    div6.style.color = 'blue';
     var audio = new Audio('./sonidos/clave06.mp3');
     audio.play();
     }
   if (evento.code === 'KeyM') {
     div7.style.backgroundColor = 'red';
+    div7.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave07.mp3');
     audio.play();
     } else if (evento.code === 'KeyA') {
-    div8.style.backgroundColor = 'yellow';
+    div8.style.backgroundColor = 'orange';
+    div8.style.color = 'blue';
     var audio = new Audio('./sonidos/clave08.mp3');
     audio.play();
     }
   if (evento.code === 'KeyS') {
     div9.style.backgroundColor = 'red';
+    div9.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave09.mp3');
     audio.play();
     } else if (evento.code === 'KeyD') {
-    div10.style.backgroundColor = 'yellow';
+    div10.style.backgroundColor = 'orange';
+    div10.style.color = 'blue';
     var audio = new Audio('./sonidos/clave10.mp3');
     audio.play();
     }
   if (evento.code === 'KeyF') {
     div11.style.backgroundColor = 'red';
+    div11.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave11.mp3');
     audio.play();
     } else if (evento.code === 'KeyG') {
-    div12.style.backgroundColor = 'yellow';
+    div12.style.backgroundColor = 'orange';
+    div12.style.color = 'blue';
     var audio = new Audio('./sonidos/clave12.mp3');
     audio.play();
     }
   if (evento.code === 'KeyH') {
-    div13.style.backgroundColor = 'yellow';
+    div13.style.backgroundColor = 'orange';
+    div13.style.color = 'blue';
     var audio = new Audio('./sonidos/clave13.mp3');
     audio.play();
 
     } else if (evento.code === 'KeyJ') {
     div14.style.backgroundColor = 'red';
+    div14.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave14.mp3');
     audio.play();
     }
   if (evento.code === 'KeyK') {
-    div15.style.backgroundColor = 'yellow';
+    div15.style.backgroundColor = 'orange';
+    div15.style.color = 'blue';
     var audio = new Audio('./sonidos/clave15.mp3');
     audio.play();
     } else if (evento.code === 'KeyL') {
     div16.style.backgroundColor = 'red';
+    div16.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave16.mp3');
     audio.play();
     }
   if (evento.code === 'KeyQ') {
-    div17.style.backgroundColor = 'yellow';
+    div17.style.backgroundColor = 'orange';
+    div17.style.color = 'blue';
     var audio = new Audio('./sonidos/clave17.mp3');
     audio.play();
     } else if (evento.code === 'KeyW') {
-    div18.style.backgroundColor = 'yellow';
+    div18.style.backgroundColor = 'orange';
+    div18.style.color = 'blue';
     var audio = new Audio('./sonidos/clave18.mp3');
     audio.play();
     }
   if (evento.code === 'KeyE') {
     div19.style.backgroundColor = 'red';
+    div19.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave19.mp3');
     audio.play();
     } else if (evento.code === 'KeyR') {
-    div20.style.backgroundColor = 'yellow';
+    div20.style.backgroundColor = 'orange';
+    div20.style.color = 'blue';
     var audio = new Audio('./sonidos/clave20.mp3');
     audio.play();
     }
   if (evento.code === 'KeyT') {
     div21.style.backgroundColor = 'red';
+    div21.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave21.mp3');
     audio.play();
     } else if (evento.code === 'KeyY') {
-    div22.style.backgroundColor = 'yellow';
+    div22.style.backgroundColor = 'orange';
+    div22.style.color = 'blue';
     var audio = new Audio('./sonidos/clave22.mp3');
     audio.play();
     }
   if (evento.code === 'KeyU') {
     div23.style.backgroundColor = 'red';
+    div23.style.color = 'yellow';
     var audio = new Audio('./sonidos/clave23.mp3');
     audio.play();
     } else if (evento.code === 'KeyI') {
-    div24.style.backgroundColor = 'yellow';
+    div24.style.backgroundColor = 'orange';
+    div24.style.color = 'blue';
     var audio = new Audio('./sonidos/clave24.mp3');
     audio.play();
     }
@@ -141,6 +165,7 @@ document.addEventListener('keydown',  function(evento) {
 
 div1.addEventListener('mousedown' , function() {
   div1.style.backgroundColor = 'green';
+  div1.style.color = 'blue';
   let sound1 = new Audio('./sonidos/clave01.mp3');
   C1.addEventListener('click', (evento)=>{
   sound1.play();
@@ -148,6 +173,7 @@ div1.addEventListener('mousedown' , function() {
   });
 div2.addEventListener('mousedown', function() {
   div2.style.backgroundColor = 'blue';
+  div2.style.color = 'yellow';
   let sound2 = new Audio('./sonidos/clave02.mp3');
   C1sharp.addEventListener('click', ()=>{
   sound2.play();
@@ -155,6 +181,7 @@ div2.addEventListener('mousedown', function() {
   });
 div3.addEventListener('mousedown', function() {
   div3.style.backgroundColor = 'green';
+  div3.style.color = 'blue';
   let sound3 = new Audio('./sonidos/clave03.mp3');
   D1.addEventListener('click', ()=>{
   sound3.play();
@@ -162,6 +189,7 @@ div3.addEventListener('mousedown', function() {
   });
 div4.addEventListener('mousedown', function() {
   div4.style.backgroundColor = 'blue';
+  div4.style.color = 'yellow';
   let sound4 = new Audio('./sonidos/clave04.mp3');
   D1sharp.addEventListener('click', ()=>{
   sound4.play();
@@ -169,6 +197,7 @@ div4.addEventListener('mousedown', function() {
   });
 div5.addEventListener('mousedown', function() {
   div5.style.backgroundColor = 'green';
+  div5.style.color = 'blue';
   let sound5 = new Audio('./sonidos/clave05.mp3');
   E1.addEventListener('click', ()=>{
   sound5.play();
@@ -176,6 +205,7 @@ div5.addEventListener('mousedown', function() {
   });
 div6.addEventListener('mousedown', function() {
   div6.style.backgroundColor = 'green';
+  div6.style.color = 'blue';
   let sound6 = new Audio('./sonidos/clave06.mp3');
   F1.addEventListener('click', ()=>{
   sound6.play();
@@ -183,6 +213,7 @@ div6.addEventListener('mousedown', function() {
   });
 div7.addEventListener('mousedown', function() {
   div7.style.backgroundColor = 'blue';
+  div7.style.color = 'yellow';
   let sound7 = new Audio('./sonidos/clave07.mp3');
   F1sharp.addEventListener('click', ()=>{
   sound7.play();
@@ -190,6 +221,7 @@ div7.addEventListener('mousedown', function() {
   });
 div8.addEventListener('mousedown', function() {
   div8.style.backgroundColor = 'green';
+  div8.style.color = 'blue';
   let sound8 = new Audio('./sonidos/clave08.mp3');
   G1.addEventListener('click', ()=>{
   sound8.play();
@@ -197,6 +229,7 @@ div8.addEventListener('mousedown', function() {
   });
 div9.addEventListener('mousedown', function() {
   div9.style.backgroundColor = 'blue';
+  div9.style.color = 'yellow';
   let sound9 = new Audio('./sonidos/clave09.mp3');
   G1sharp.addEventListener('click', ()=>{
   sound9.play();
@@ -204,6 +237,7 @@ div9.addEventListener('mousedown', function() {
   });
 div10.addEventListener('mousedown', function() {
   div10.style.backgroundColor = 'green';
+  div10.style.color = 'blue';
   let sound10 = new Audio('./sonidos/clave10.mp3');
   A1.addEventListener('click', ()=>{
   sound10.play();
@@ -211,6 +245,7 @@ div10.addEventListener('mousedown', function() {
   });
 div11.addEventListener('mousedown', function() {
   div11.style.backgroundColor = 'blue';
+  div11.style.color = 'yellow';
   let sound11 = new Audio('./sonidos/clave11.mp3');
   A1sharp.addEventListener('click', ()=>{
   sound11.play();
@@ -218,6 +253,7 @@ div11.addEventListener('mousedown', function() {
   });
 div12.addEventListener('mousedown', function() {
   div12.style.backgroundColor = 'green';
+  div12.style.color = 'blue';
   let sound12 = new Audio('./sonidos/clave12.mp3');
   B1.addEventListener('click', ()=>{
   sound12.play();
@@ -225,6 +261,7 @@ div12.addEventListener('mousedown', function() {
   });
 div13.addEventListener('mousedown', function() {
   div13.style.backgroundColor = 'green';
+  div13.style.color = 'blue';
   let sound13 = new Audio('./sonidos/clave13.mp3');
   C2.addEventListener('click', ()=>{
   sound13.play();
@@ -232,6 +269,7 @@ div13.addEventListener('mousedown', function() {
   });
 div14.addEventListener('mousedown', function() {
   div14.style.backgroundColor = 'blue';
+  div14.style.color = 'yellow';
   let sound14 = new Audio('./sonidos/clave14.mp3');
   C2sharp.addEventListener('click', ()=>{
   sound14.play();
@@ -239,6 +277,7 @@ div14.addEventListener('mousedown', function() {
   });
 div15.addEventListener('mousedown', function() {
   div15.style.backgroundColor = 'green';
+  div15.style.color = 'blue';
   let sound15 = new Audio('./sonidos/clave15.mp3');
   D2.addEventListener('click', ()=>{
   sound15.play();
@@ -246,6 +285,7 @@ div15.addEventListener('mousedown', function() {
   });
 div16.addEventListener('mousedown', function() {
   div16.style.backgroundColor = 'blue';
+  div16.style.color = 'yellow';
   let sound16 = new Audio('./sonidos/clave16.mp3');
   D2sharp.addEventListener('click', ()=>{
   sound16.play();
@@ -253,6 +293,7 @@ div16.addEventListener('mousedown', function() {
   });
 div17.addEventListener('mousedown', function() {
   div17.style.backgroundColor = 'green';
+  div17.style.color = 'blue';
   let sound17 = new Audio('./sonidos/clave17.mp3');
   E2.addEventListener('click', ()=>{
   sound17.play();
@@ -260,6 +301,7 @@ div17.addEventListener('mousedown', function() {
   });
 div18.addEventListener('mousedown', function() {
   div18.style.backgroundColor = 'green';
+  div18.style.color = 'blue';
   let sound18 = new Audio('./sonidos/clave18.mp3');
   F2.addEventListener('click', ()=>{
   sound18.play();
@@ -267,6 +309,7 @@ div18.addEventListener('mousedown', function() {
   });
 div19.addEventListener('mousedown', function() {
   div19.style.backgroundColor = 'blue';
+  div19.style.color = 'yellow';
   let sound19 = new Audio('./sonidos/clave19.mp3');
   F2sharp.addEventListener('click', ()=>{
   sound19.play();
@@ -274,6 +317,7 @@ div19.addEventListener('mousedown', function() {
   });
 div20.addEventListener('mousedown', function() {
   div20.style.backgroundColor = 'green';
+  div20.style.color = 'blue';
   let sound20 = new Audio('./sonidos/clave20.mp3');
   G2.addEventListener('click', ()=>{
   sound20.play();
@@ -281,6 +325,7 @@ div20.addEventListener('mousedown', function() {
   });
 div21.addEventListener('mousedown', function() {
   div21.style.backgroundColor = 'blue';
+  div21.style.color = 'yellow';
   let sound21 = new Audio('./sonidos/clave21.mp3');
   G2sharp.addEventListener('click', ()=>{
   sound21.play();
@@ -288,6 +333,7 @@ div21.addEventListener('mousedown', function() {
   });
 div22.addEventListener('mousedown', function() {
   div22.style.backgroundColor = 'green';
+  div22.style.color = 'blue';
   let sound22 = new Audio('./sonidos/clave22.mp3');
   A3.addEventListener('click', ()=>{
   sound22.play();
@@ -295,6 +341,7 @@ div22.addEventListener('mousedown', function() {
   });
 div23.addEventListener('mousedown', function() {
   div23.style.backgroundColor = 'blue';
+  div23.style.color = 'yellow';
   let sound23 = new Audio('./sonidos/clave23.mp3');
   A3sharp.addEventListener('click', ()=>{
   sound23.play();
@@ -302,6 +349,7 @@ div23.addEventListener('mousedown', function() {
   });
 div24.addEventListener('mousedown', function() {
   div24.style.backgroundColor = 'green';
+  div24.style.color = 'blue';
   let sound24 = new Audio('./sonidos/clave24.mp3');
   B3.addEventListener('click', ()=>{
   sound24.play();
@@ -313,75 +361,99 @@ div24.addEventListener('mousedown', function() {
   document.addEventListener('keyup',  function(evento) {
     if (evento.code === 'KeyZ') {
       div1.style.backgroundColor = 'white';
+      div1.style.color = 'black';
     } 
     else if (evento.code === 'KeyX') {
       div2.style.backgroundColor = 'black';
+      div2.style.color = 'white';
     }
     if (evento.code === 'KeyC') {
       div3.style.backgroundColor = 'white';
+      div3.style.color = 'black';
     } 
     else if (evento.code === 'KeyV') {
       div4.style.backgroundColor = 'black';
+      div4.style.color = 'white';
     }
     if (evento.code === 'KeyB') {
       div5.style.backgroundColor = 'white';
+      div5.style.color = 'black';
     }
     else if (evento.code === 'KeyN') {
       div6.style.backgroundColor = 'white';
+      div6.style.color = 'black';
     }
     if (evento.code === 'KeyM') {
       div7.style.backgroundColor = 'black';
+      div7.style.color = 'white';
     }
     else if (evento.code === 'KeyA') {
       div8.style.backgroundColor = 'white';
+      div8.style.color = 'black';
     }
     if (evento.code === 'KeyS') {
       div9.style.backgroundColor = 'black';
+      div9.style.color = 'white';
     } 
     else if (evento.code === 'KeyD') {
       div10.style.backgroundColor = 'white';
+      div10.style.color = 'black';
     }
     if (evento.code === 'KeyF') {
       div11.style.backgroundColor = 'black';
+      div11.style.color = 'white';
     } 
     else if (evento.code === 'KeyG') {
       div12.style.backgroundColor = 'white';
+      div12.style.color = 'black';
     }
     if (evento.code === 'KeyH') {
       div13.style.backgroundColor = 'white';
+      div13.style.color = 'black';
     } 
     else if (evento.code === 'KeyJ') {
       div14.style.backgroundColor = 'black';
+      div14.style.color = 'white';
     }
     if (evento.code === 'KeyK') {
       div15.style.backgroundColor = 'white';
+      div15.style.color = 'black';
     }
     else if (evento.code === 'KeyL') {
       div16.style.backgroundColor = 'black';
+      div16.style.color = 'white';
     }
     if (evento.code === 'KeyQ') {
       div17.style.backgroundColor = 'white';
+      div17.style.color = 'black';
     } 
     else if (evento.code === 'KeyW') {
       div18.style.backgroundColor = 'white';
+      div18.style.color = 'black';
     }
     if (evento.code === 'KeyE') {
       div19.style.backgroundColor = 'black';
+      div19.style.color = 'white';
     } 
     else if (evento.code === 'KeyR') {
       div20.style.backgroundColor = 'white';
+      div20.style.color = 'black';
     }
     if (evento.code === 'KeyT') {
       div21.style.backgroundColor = 'black';
+      div21.style.color = 'white';
     }
     else if (evento.code === 'KeyY') {
       div22.style.backgroundColor = 'white';
+      div22.style.color = 'black';
     }
     if (evento.code === 'KeyU') {
       div23.style.backgroundColor = 'black';
+      div23.style.color = 'white';
     } 
     else if (evento.code === 'KeyI') {
       div24.style.backgroundColor = 'white';
+      div24.style.color = 'black';
     }
     })
   
@@ -389,75 +461,99 @@ div24.addEventListener('mousedown', function() {
 
     div1.addEventListener('mouseup' , function(evento) {
       div1.style.backgroundColor = 'white';
+      div1.style.color = 'black';
     })
     div2.addEventListener('mouseup' , function(evento) {
       div2.style.backgroundColor = 'black';
+      div2.style.color = 'white';
     })
     div3.addEventListener('mouseup' , function(evento) {
       div3.style.backgroundColor = 'white';
+      div3.style.color = 'black';
     })
     div4.addEventListener('mouseup' , function(evento) {
       div4.style.backgroundColor = 'black';
+      div4.style.color = 'white';
     })
     div5.addEventListener('mouseup' , function(evento) {
       div5.style.backgroundColor = 'white';
+      div5.style.color = 'black';
     })
     div6.addEventListener('mouseup' , function(evento) {
       div6.style.backgroundColor = 'white';
+      div6.style.color = 'black'
     })
     div7.addEventListener('mouseup' , function(evento) {
       div7.style.backgroundColor = 'black';
+      div7.style.color = 'white';
     })
     div8.addEventListener('mouseup' , function(evento) {
       div8.style.backgroundColor = 'white';
+      div8.style.color = 'black';
     })
     div9.addEventListener('mouseup' , function(evento) {
       div9.style.backgroundColor = 'black';
+      div9.style.color = 'white';
     })
     div10.addEventListener('mouseup' , function(evento) {
       div10.style.backgroundColor = 'white';
+      div10.style.color = 'black';
     })
     div11.addEventListener('mouseup' , function(evento) {
       div11.style.backgroundColor = 'black';
+      div11.style.color = 'white';
     })
     div12.addEventListener('mouseup' , function(evento) {
       div12.style.backgroundColor = 'white';
+      div12.style.color = 'black';
     })
     div13.addEventListener('mouseup' , function(evento) {
       div13.style.backgroundColor = 'white';
+      div13.style.color = 'black';
     })
     div14.addEventListener('mouseup' , function(evento) {
       div14.style.backgroundColor = 'black';
+      div14.style.color = 'white';
     })
     div15.addEventListener('mouseup' , function(evento) {
       div15.style.backgroundColor = 'white';
+      div15.style.color = 'black';
     })
     div16.addEventListener('mouseup' , function(evento) {
       div16.style.backgroundColor = 'black';
+      div16.style.color = 'white';
     })
     div17.addEventListener('mouseup' , function(evento) {
       div17.style.backgroundColor = 'white';
+      div17.style.color = 'black';
     })
     div18.addEventListener('mouseup' , function(evento) {
       div18.style.backgroundColor = 'white';
+      div18.style.color = 'black';
     })
     div19.addEventListener('mouseup' , function(evento) {
       div19.style.backgroundColor = 'black';
+      div19.style.color = 'white';
     })
     div20.addEventListener('mouseup' , function(evento) {
       div20.style.backgroundColor = 'white';
+      div20.style.color = 'black';
     })
     div21.addEventListener('mouseup' , function(evento) {
       div21.style.backgroundColor = 'black';
+      div21.style.color = 'white';
     })
     div22.addEventListener('mouseup' , function(evento) {
       div22.style.backgroundColor = 'white';
+      div22.style.color = 'black';
     })
     div23.addEventListener('mouseup' , function(evento) {
       div23.style.backgroundColor = 'black';
+      div23.style.color = 'white';
     })
     div24.addEventListener('mouseup' , function(evento) {
       div24.style.backgroundColor = 'white';
+      div24.style.color = 'black';
     })
 
     
