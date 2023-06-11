@@ -459,34 +459,4 @@ div24.addEventListener('mousedown', function() {
     div24.addEventListener('mouseup' , function(evento) {
       div24.style.backgroundColor = 'white';
     })
-      
-      
-      
-       
     
-     
-      
-      
-    
-     
-    
-     
-     
-       
-     
-    
-     
-       
-      
-       
-      
-        
-    
-      
-
-      
-     
-
-
-
-     
