@@ -167,7 +167,7 @@ div1.addEventListener('mousedown' , function() {
   div1.style.backgroundColor = 'green';
   div1.style.color = 'blue';
   let sound1 = new Audio('./sonidos/clave01.mp3');
-  C1.addEventListener('click', (evento)=>{
+  C1.addEventListener('click', ()=>{
   sound1.play();
   })
   });
@@ -556,4 +556,16 @@ div24.addEventListener('mousedown', function() {
       div24.style.color = 'black';
     })
 
+    document.addEventListener("keydown", function(event) {
+      var key = document.querySelector(".key[data-note='" + event.key.toUpperCase() + "']");
+      if (key) {
+        key.classList.add("active");
+      }
+    });
     
+    document.addEventListener("keyup", function(event) {
+      var key = document.querySelector(".key[data-note='" + event.key.toUpperCase() + "']");
+      if (key) {
+        key.classList.remove("active");
+      }
+    });
