@@ -1,8 +1,7 @@
-body {
-  background-image:url('imagen/fondo.png');
+body{
+  background-image:url('imagen/musical.png');
   background-size: cover;
-background-repeat: center;
-
+  background-repeat: center;
 }
 .container {
   width: 960px;
