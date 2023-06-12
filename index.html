@@ -7,33 +7,48 @@
     <link rel="stylesheet" href="./css/styles.css">
     <title>Document</title>
 </head>
-<body>
-    
-  <div class="piano">
-    <div class="key white" id="C1"><p>C</p><p>Do</p></div>
-    <div class="key black" id="C1sharp"><p>C#</p><p>D&#x266d;</p><p>Do#</p><p>Re&#x266d;</p></div>
-    <div class="key white" id="D1"><p>D</p><p>Re</p></div>
-    <div class="key black" id="D1sharp"><p>D#</p><p>E&#x266d;</p><p>Re#</p><p>Mi&#x266d;</p></div>
-    <div class="key white" id="E1"><p>E</p><p>Mi</p></div>
-    <div class="key white" id="F1"><p>F</p><p>Fa</p></div>
-    <div class="key black" id="F1sharp"><p>F#</p><p>G&#x266d;</p><p>Fa#</p><p>Sol&#x266d;</p></div>
-    <div class="key white" id="G1"><p>G</p><p>Sol</p></div>
-    <div class="key black" id="G1sharp"><p>G#</p><p>A&#x266d;</p><p>Sol#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="A1"><p>A</p><p>La</p></div>
-    <div class="key black" id="A1sharp"><p>A#</p><p>B&#x266d;</p><p>La#</p><p>Si&#x266d;</p></div>
-    <div class="key white" id="B1"><p>B</p><p>Si</p></div>
-    <div class="key white" id="C2"><p>C</p><p>Do</p></div>
-    <div class="key black" id="C2sharp"><p>C#</p><p>D&#x266d;</p><p>Do#</p><p>Re&#x266d;</p></div>
-    <div class="key white" id="D2"><p>D</p><p>Re</p></div>
-    <div class="key black" id="D2sharp"><p>D#</p><p>E&#x266d;</p><p>Re#</p><p>Mi&#x266d;</p></div>
-    <div class="key white" id="E2"><p>E</p><p>Mi</p></div>
-    <div class="key white" id="F2"><p>F</p><p>Fa</p></div>
-    <div class="key black" id="F2sharp"><p>F#</p><p>G&#x266d;</p><p>Fa#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="G2"><p>G</p><p>Sol</p></div>
-    <div class="key black" id="G2sharp"><p>G#</p><p>A&#x266d;</p><p>Sol#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="A3"><p>A</p><p>La</p></div>
-    <div class="key black" id="A3sharp"><p>A#</p><p>B&#x266d;</p><p>La#</p><p>Si&#x266d;</p></div>
-    <div class="key white" id="B3"><p>B</p><p>Si</p></div>
-  </div>
+<body>    
+  <div class="contenedor">
+      <div class="piano">
+        <div class="controlespiano">
+          <div class="slidervolumen">
+            <span>Volumen</span> <input type="range" min="0" max="1" value="0.5" step="any">
+          </div>
+          <div class="equivalenciateclas">
+            <span>Mostrar teclas</span> <input type="checkbox">
+          </div>
+          <div class="onoff">
+            <span>ON</span> <input type="checkbox"><span>OFF</span>
+          </div>
+        </div>
+        <div class="contenedorteclas">
+          <div class="key white" id="C1"><p><b id="equivalencia">A</b><br /><br />C<br />Do</p></div>
+          <div class="key black" id="C1sharp"><p><b id="equivalencia">A</b><br /><br />C#<br />D&#x266d;<br />Do#<br />Re&#x266d;</p></div>
+          <div class="key white" id="D1"><p><b id="equivalencia">A</b><br /><br />D<br />Re</p></div>
+          <div class="key black" id="D1sharp"><p><b id="equivalencia">A</b><br /><br />D#<br />E&#x266d;<br />Re#<br />Mi&#x266d;</p></div>
+          <div class="key white" id="E1"><p><b id="equivalencia">A</b><br /><br />E<br />Mi</p></div>
+          <div class="key white" id="F1"><p><b id="equivalencia">A</b><br /><br />F<br />Fa</p></div>
+          <div class="key black" id="F1sharp"><p><b id="equivalencia">A</b><br /><br />F#<br />G&#x266d;<br />Fa#<br />Sol&#x266d;</p></div>
+          <div class="key white" id="G1"><p><b id="equivalencia">A</b><br /><br />G<br />Sol</p></div>
+          <div class="key black" id="G1sharp"><p><b id="equivalencia">A</b><br /><br />G#<br />A&#x266d;<br />Sol#<br />La&#x266d;</p></div>
+          <div class="key white" id="A1"><p><b id="equivalencia">A</b><br /><br />A<br />La</p></div>
+          <div class="key black" id="A1sharp"><p><b id="equivalencia">A</b><br /><br />A#<br />B&#x266d;<br />La#<br />Si&#x266d;</p></div>
+          <div class="key white" id="B1"><p><b id="equivalencia">A</b><br /><br />B<br />Si</p></div>
+          <div class="key white" id="C2"><p><b id="equivalencia">A</b><br /><br />C<br />Do</p></div>
+          <div class="key black" id="C2sharp"><p><b id="equivalencia">A</b><br /><br />C#<br />D&#x266d;<br />Do#<br />Re&#x266d;</p></div>
+          <div class="key white" id="D2"><p><b id="equivalencia">A</b><br /><br />D<br />Re</p></div>
+          <div class="key black" id="D2sharp"><p><b id="equivalencia">A</b><br /><br />D#<br />E&#x266d;<br />Re#<br />Mi&#x266d;</p></div>
+          <div class="key white" id="E2"><p><b id="equivalencia">A</b><br /><br />E<br />Mi</p></div>
+          <div class="key white" id="F2"><p><b id="equivalencia">A</b><br /><br />F<br />Fa</p></div>
+          <div class="key black" id="F2sharp"><p><b id="equivalencia">A</b><br /><br />F#<br />G&#x266d;<br />Fa#<br />La&#x266d;</p></div>
+          <div class="key white" id="G2"><p><b id="equivalencia">A</b><br /><br />G<br />Sol</p></div>
+          <div class="key black" id="G2sharp"><p><b id="equivalencia">A</b><br /><br />G#<br />A&#x266d;<br />Sol#<br />La&#x266d;</p></div>
+          <div class="key white" id="A3"><p><b id="equivalencia">A</b><br /><br />A<br />La</p></div>
+          <div class="key black" id="A3sharp"><p><b id="equivalencia">A</b><br /><br />A#<br />B&#x266d;<br />La#<br />Si&#x266d;</p></div>
+          <div class="key white" id="B3"><p><b id="equivalencia">A</b><br /><br />B<br />Si</p></div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
 </body>
 </html>
