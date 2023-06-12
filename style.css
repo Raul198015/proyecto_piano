@@ -1,0 +1,25 @@
+body {
+    background-image:url('imagen/fondo.png');
+    background-size: cover;
+  background-repeat: center;
+
+}
+nav {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0%;
+    margin:0%
+}
+nav li {
+    display: inline-block;
+    font-style: italic;
+    font-size: 30px;
+
+}
+nav a {
+    display: block;
+    padding: 10px;
+    color:blue;
+}
