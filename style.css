@@ -4,6 +4,15 @@ body {
   background-repeat: center;
 
 }
+.container {
+    width: 960px;
+    margin:auto;
+}
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+    }
+}
 
  nav ul {
     list-style: none;
@@ -22,7 +31,7 @@ nav a {
     display: block;
     padding: 10px;
     text-decoration: none;
-    color: #0906f1;
+    color:yellow;
 }
 nav ul ul {
     position: absolute;
