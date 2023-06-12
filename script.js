@@ -1,14 +1,20 @@
-slidervolume = document.querySelector(".slidervolumen input"),
-mostrarletras = document.querySelector(".equivalenciateclas input"),
+primerparrafo = document.getElementById("parrafo1");
+primerparrafo.textContent = "Nuevo mensaje del párrafo.";
+
+
+
+const pianoKeys = document.querySelectorAll(".contenedorteclas .key"),
+volumeSlider = document.querySelector(".volume-slider input"),
+keysCheckbox = document.querySelector(".keys-checkbox input");
 
 const handleVolume = (e) => {
-    audio.volume = e.target value;
-}
-const showHideteclas = () => {
-    document.getElementById("equivalencia")
-    pianokeys.forEach(key=> key.classList.toggle("hide"));
+    Audio.volume = e.target ;value;
 }
 
+const showHideKeys = () => {
+  // toggling hide class from each key on the checkbox click
+  pianoKeys.forEach(key => key.classList.toggle("hide"));
+}
 
-slidervolume.addEventListener("input", handleVolume)
-mostrarletras.addEventListener("click", showHideteclas)
+keysCheckbox.addEventListener("click", showHideKeys);
+volumeSlider.addEventListener("input", handleVolume)
