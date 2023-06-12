@@ -31,14 +31,4 @@
   justify-content: flex-end;
   }
 
- black[id="Csharp"],
-.black[id="Dsharp"],
-.black[id="Fsharp"],
-.black[id="Gsharp"],
-.black[id="Asharp"] {
-  margin-left: -10px;
-}
-
-.key[id="C"].active { top: 10px; }
-.key[id="Csharp"].active { top: 10px; }
-.key[id="D"].active { top: 10px; }
+ 
