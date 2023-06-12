@@ -89,7 +89,7 @@ z-index: 2;
 height: 50%;
 margin: 0 -25px 0 -25px;
 border-radius: 0 0 5px 5px;
-background-color: rgb(66, 66, 66);
+background-color: black;
 background-image:
   linear-gradient(to right, rgb(66, 66, 66) 0 4px, transparent 4px),
   linear-gradient(to left, rgb(66, 66, 66) 0 4px, transparent 4px),
@@ -118,7 +118,7 @@ background: linear-gradient(#fff 96%, #eee 4%);
     text-align: center;
     & .equivalencia {
     font-size: large;
-    color: orange;
+    color: blue;
   }
   }
 }
@@ -155,3 +155,4 @@ display: none;
 .equivalencia .mostrar{
 display: none;
 }
+

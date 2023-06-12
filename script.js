@@ -27,134 +27,134 @@ let div24 = document.querySelector('#B3');
 
 document.addEventListener('keydown',  function(evento) {
   if (evento.code === 'KeyZ') {
-    div1.style.backgroundColor = 'orange';
+    div1.style.background = 'orange';
     div1.style.color = 'blue';
     var audio = new Audio('./sonidos/clave01.mp3');
     audio.play();
     } else if (evento.code === 'KeyX') {
-    div2.style.backgroundColor = 'red';
-    div2.style.color = 'yellow';
+    div2.style.background = 'red';
+    div2.style.color = 'orange';
     var audio = new Audio('./sonidos/clave02.mp3');
     audio.play();
     }
   if (evento.code === 'KeyC') {
-    div3.style.backgroundColor = 'orange';
+    div3.style.background = 'orange';
     div3.style.color = 'blue';
     var audio = new Audio('./sonidos/clave03.mp3');
     audio.play();
     } else if (evento.code === 'KeyV') {
-    div4.style.backgroundColor = 'red';
-    div4.style.color = 'yellow';
+    div4.style.background = 'red';
+    div4.style.color = 'orange';
     var audio = new Audio('./sonidos/clave04.mp3');
     audio.play();
     }
   if (evento.code === 'KeyB') {
-    div5.style.backgroundColor = 'orange';
+    div5.style.background = 'orange';
     div5.style.color = 'blue';
     var audio = new Audio('./sonidos/clave05.mp3');
     audio.play();
     } else if (evento.code === 'KeyN') {
-    div6.style.backgroundColor = 'orange';
+    div6.style.background = 'orange';
     div6.style.color = 'blue';
     var audio = new Audio('./sonidos/clave06.mp3');
     audio.play();
     }
   if (evento.code === 'KeyM') {
-    div7.style.backgroundColor = 'red';
-    div7.style.color = 'yellow';
+    div7.style.background = 'red';
+    div7.style.color = 'orange';
     var audio = new Audio('./sonidos/clave07.mp3');
     audio.play();
     } else if (evento.code === 'KeyA') {
-    div8.style.backgroundColor = 'orange';
+    div8.style.background = 'orange';
     div8.style.color = 'blue';
     var audio = new Audio('./sonidos/clave08.mp3');
     audio.play();
     }
   if (evento.code === 'KeyS') {
-    div9.style.backgroundColor = 'red';
-    div9.style.color = 'yellow';
+    div9.style.background = 'red';
+    div9.style.color = 'orange';
     var audio = new Audio('./sonidos/clave09.mp3');
     audio.play();
     } else if (evento.code === 'KeyD') {
-    div10.style.backgroundColor = 'orange';
+    div10.style.background = 'orange';
     div10.style.color = 'blue';
     var audio = new Audio('./sonidos/clave10.mp3');
     audio.play();
     }
   if (evento.code === 'KeyF') {
-    div11.style.backgroundColor = 'red';
-    div11.style.color = 'yellow';
+    div11.style.background = 'red';
+    div11.style.color = 'orange';
     var audio = new Audio('./sonidos/clave11.mp3');
     audio.play();
     } else if (evento.code === 'KeyG') {
-    div12.style.backgroundColor = 'orange';
+    div12.style.background = 'orange';
     div12.style.color = 'blue';
     var audio = new Audio('./sonidos/clave12.mp3');
     audio.play();
     }
   if (evento.code === 'KeyH') {
-    div13.style.backgroundColor = 'orange';
+    div13.style.background = 'orange';
     div13.style.color = 'blue';
     var audio = new Audio('./sonidos/clave13.mp3');
     audio.play();
 
     } else if (evento.code === 'KeyJ') {
-    div14.style.backgroundColor = 'red';
-    div14.style.color = 'yellow';
+    div14.style.background = 'red';
+    div14.style.color = 'orange';
     var audio = new Audio('./sonidos/clave14.mp3');
     audio.play();
     }
   if (evento.code === 'KeyK') {
-    div15.style.backgroundColor = 'orange';
+    div15.style.background = 'orange';
     div15.style.color = 'blue';
     var audio = new Audio('./sonidos/clave15.mp3');
     audio.play();
     } else if (evento.code === 'KeyL') {
-    div16.style.backgroundColor = 'red';
-    div16.style.color = 'yellow';
+    div16.style.background = 'red';
+    div16.style.color = 'orange';
     var audio = new Audio('./sonidos/clave16.mp3');
     audio.play();
     }
   if (evento.code === 'KeyQ') {
-    div17.style.backgroundColor = 'orange';
+    div17.style.background = 'orange';
     div17.style.color = 'blue';
     var audio = new Audio('./sonidos/clave17.mp3');
     audio.play();
     } else if (evento.code === 'KeyW') {
-    div18.style.backgroundColor = 'orange';
+    div18.style.background = 'orange';
     div18.style.color = 'blue';
     var audio = new Audio('./sonidos/clave18.mp3');
     audio.play();
     }
   if (evento.code === 'KeyE') {
-    div19.style.backgroundColor = 'red';
-    div19.style.color = 'yellow';
+    div19.style.background = 'red';
+    div19.style.color = 'orange';
     var audio = new Audio('./sonidos/clave19.mp3');
     audio.play();
     } else if (evento.code === 'KeyR') {
-    div20.style.backgroundColor = 'orange';
+    div20.style.background = 'orange';
     div20.style.color = 'blue';
     var audio = new Audio('./sonidos/clave20.mp3');
     audio.play();
     }
   if (evento.code === 'KeyT') {
-    div21.style.backgroundColor = 'red';
-    div21.style.color = 'yellow';
+    div21.style.background = 'red';
+    div21.style.color = 'orange';
     var audio = new Audio('./sonidos/clave21.mp3');
     audio.play();
     } else if (evento.code === 'KeyY') {
-    div22.style.backgroundColor = 'orange';
+    div22.style.background = 'orange';
     div22.style.color = 'blue';
     var audio = new Audio('./sonidos/clave22.mp3');
     audio.play();
     }
   if (evento.code === 'KeyU') {
-    div23.style.backgroundColor = 'red';
-    div23.style.color = 'yellow';
+    div23.style.background = 'red';
+    div23.style.color = 'orange';
     var audio = new Audio('./sonidos/clave23.mp3');
     audio.play();
     } else if (evento.code === 'KeyI') {
-    div24.style.backgroundColor = 'orange';
+    div24.style.background = 'orange';
     div24.style.color = 'blue';
     var audio = new Audio('./sonidos/clave24.mp3');
     audio.play();
