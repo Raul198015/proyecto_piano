@@ -1,21 +1,23 @@
-pianoKeys = document.querySelectorAll(".piano-keys .key .equivalencia"),
+pianoKeys = document.querySelectorAll(".piano-keys .key .equivalencia");
 keysCheckbox = document.querySelector(".keys-checkbox input");
-
+pianoNotas = document.querySelectorAll(".piano-keys .key .notas");
+notasCheckbox = document.querySelector(".notes-checkbox input");
+volumeSlider = document.querySelector(".volume-slider input");
 
 const showHideKeys = () => {
-  // toggling hide class from each key on the checkbox click
+  //pon y quita la clase hide
   pianoKeys.forEach(equivalencia => equivalencia.classList.toggle("hide"));
 }
 
-keysCheckbox.addEventListener("click", showHideKeys);
-
-pianoNotas = document.querySelectorAll(".piano-keys .key .notas"),
-notasCheckbox = document.querySelector(".notes-checkbox input");
-
-
 const showHideNotes = () => {
-  // toggling hide class from each key on the checkbox click
+  //pon y quita la clase hide
   pianoNotas.forEach(notas => notas.classList.toggle("hide"));
 }
 
+const handleVolume = (e) => {
+    audio.volume = e.target.value; //convertir el valor del slide en el valor del volumen del audio
+}
+
 notasCheckbox.addEventListener("click", showHideNotes);
+keysCheckbox.addEventListener("click", showHideKeys);
+volumeSlider.addEventListener("input", handleVolume);
