@@ -556,19 +556,6 @@ div24.addEventListener('mousedown', function() {
       div24.style.color = 'black';
     })
 
-    document.addEventListener("keydown", function(event) {
-      var key = document.querySelector(".key[data-note='" + event.key.toUpperCase() + "']");
-      if (key) {
-        key.classList.add("active");
-      }
-    });
-    
-    document.addEventListener("keyup", function(event) {
-      var key = document.querySelector(".key[data-note='" + event.key.toUpperCase() + "']");
-      if (key) {
-        key.classList.remove("active");
-      }
-    });
 
 pianoKeys = document.querySelectorAll(".piano-keys .key .equivalencia");
 keysCheckbox = document.querySelector(".keys-checkbox input");
