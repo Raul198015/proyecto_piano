@@ -194,7 +194,7 @@ nav li:hover > ul {
 
   footer {
     display: flex;
-    flex-direction:column ;
+    
     justify-content:space-evenly;
     align-items:center ;
     color:red;
@@ -218,7 +218,7 @@ nav li:hover > ul {
     align-items: center;
     font-family: cursive;
     font-size:large;
-    color:blue;
+    color:yellow;
        }
   
     h1{
@@ -231,7 +231,7 @@ nav li:hover > ul {
     }
         
     ul{
-      color:blue;
+      color:orange
       
     }   
     
