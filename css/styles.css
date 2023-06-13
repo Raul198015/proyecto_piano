@@ -212,7 +212,7 @@ nav li:hover > ul {
 .columnasfooter{
     width: 20%;
     font-weight: bold;
-    display: flex;
+    display: grid;
     flex-direction: column;
     justify-content:center;    
     align-items: center;
@@ -231,7 +231,9 @@ nav li:hover > ul {
     }
         
     ul{
+      display: grid;
       color:orange
+      dis
       
     }   
     
