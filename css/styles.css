@@ -2,6 +2,8 @@ body {
   background-image:url('../imagen/fondo.png');
   background-size: cover;
 background-repeat: center;
+display: flex;
+flex-direction: column;
 }
 .container {
   width: 960px;
@@ -200,10 +202,13 @@ nav li:hover > ul {
     color:red;
     font-style: oblique;
     font-family: cursive;
-    font-size: 25px;
+    font-size: 1.5rem;
     margin-top:5%;
     margin-left: 25%;
     margin-right: 25%;
+    background-color: #8c8c8c80;
+    width: 100%;
+    align-self: center;
     
     
 
