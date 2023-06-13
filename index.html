@@ -1,40 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Escuela de musica</title>
 </head>
+
 <body>
-    
-  <div class="piano">
-    <div class="key white" id="C1"><p>C</p><p>Do</p></div>
-    <div class="key black" id="C1sharp"><p>C#</p><p>D&#x266d;</p><p>Do#</p><p>Re&#x266d;</p></div>
-    <div class="key white" id="D1"><p>D</p><p>Re</p></div>
-    <div class="key black" id="D1sharp"><p>D#</p><p>E&#x266d;</p><p>Re#</p><p>Mi&#x266d;</p></div>
-    <div class="key white" id="E1"><p>E</p><p>Mi</p></div>
-    <div class="key white" id="F1"><p>F</p><p>Fa</p></div>
-    <div class="key black" id="F1sharp"><p>F#</p><p>G&#x266d;</p><p>Fa#</p><p>Sol&#x266d;</p></div>
-    <div class="key white" id="G1"><p>G</p><p>Sol</p></div>
-    <div class="key black" id="G1sharp"><p>G#</p><p>A&#x266d;</p><p>Sol#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="A1"><p>A</p><p>La</p></div>
-    <div class="key black" id="A1sharp"><p>A#</p><p>B&#x266d;</p><p>La#</p><p>Si&#x266d;</p></div>
-    <div class="key white" id="B1"><p>B</p><p>Si</p></div>
-    <div class="key white" id="C2"><p>C</p><p>Do</p></div>
-    <div class="key black" id="C2sharp"><p>C#</p><p>D&#x266d;</p><p>Do#</p><p>Re&#x266d;</p></div>
-    <div class="key white" id="D2"><p>D</p><p>Re</p></div>
-    <div class="key black" id="D2sharp"><p>D#</p><p>E&#x266d;</p><p>Re#</p><p>Mi&#x266d;</p></div>
-    <div class="key white" id="E2"><p>E</p><p>Mi</p></div>
-    <div class="key white" id="F2"><p>F</p><p>Fa</p></div>
-    <div class="key black" id="F2sharp"><p>F#</p><p>G&#x266d;</p><p>Fa#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="G2"><p>G</p><p>Sol</p></div>
-    <div class="key black" id="G2sharp"><p>G#</p><p>A&#x266d;</p><p>Sol#</p><p>La&#x266d;</p></div>
-    <div class="key white" id="A3"><p>A</p><p>La</p></div>
-    <div class="key black" id="A3sharp"><p>A#</p><p>B&#x266d;</p><p>La#</p><p>Si&#x266d;</p></div>
-    <div class="key white" id="B3"><p>B</p><p>Si</p></div>
-  </div>
-  <script src="script.js"></script>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li>
+                <a href="#">¿Quienes Somos?</a>
+                <ul>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lista de Canciones</a>
+                <ul>
+                    <li><a href=https://www.youtube.com/embed/_IwxvcuThF8>Bohemian Rhapsody</a></li>
+                    <li><a href=https://www.youtube.com/watch?v=7maJOI3QMu0&t=32s>Yiruma-River Flows in You</a></li>
+                    <li><a href="https://www.youtube-nocookie.com/embed/UxuU3Gg4n5A">El Exorcista</a></li>
+                    <li><a href="https://www.youtube-nocookie.com/embed/dyArIeqABL8">Metallica - Nothing Else Matters</a></li>
+                    <li><a href="https://www.youtube-nocookie.com/embed/EMClv74s1b8?start=6">Metallica - The Unforgiven</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Cursos</a>
+                <ul>
+                    <li><a href="https://pianoprincipiantes.com/como-aprender-tocar-piano/">Aprender Tocar el Piano</a></li>
+                    <li><a href="https://www.buscarinstrumentos.com/curso-iniciacion-piano-principiantes-gratis/">Piano desde Cero</a></li>
+                    <li><a href="https://laescuelademusica.net/curso-de-piano-para-principiantes/">Piano para Principiantes</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+  <section class="contenedorrr">
+      <div class="piano">
+        <div class="controlespiano">
+          <div class="column volume-slider">
+            <span>Volumen</span><input type="range" min="0" max="1" value="0.5" step="any">
+          </div>
+          <div class="column keys-checkbox">
+            <span>Mostrar teclas</span><input type="checkbox" checked>
+          </div>
+          <div class="column notes-checkbox">
+            <span>Mostrar notas</span><input type="checkbox" checked>
+          </div>
+        </div>
+        <div class="piano-keys">
+          <div class="key white" id="C1"><span class="equivalencia"><b>Z</b></span><br><span class="notas">C<br>Do</span></div>
+          <div class="key black" id="C1sharp"><span class="equivalencia"><b>X</b></span><span class="notas">C#<br>D&#x266d;<br>Do#<br>Re&#x266d;</span></div>
+          <div class="key white" id="D1"><span class="equivalencia"><b>C</b></span><br><span class="notas">D<br>Re</span></div>
+          <div class="key black" id="D1sharp"><span class="equivalencia"><b>V</b></span><span class="notas">D#<br>E&#x266d;<br>Re#<br>Mi&#x266d;</span></div>
+          <div class="key white" id="F1"><span class="equivalencia"><b>N</b></span><br><span class="notas">F<br>Fa</span></div>
+          <div class="key white" id="E1"><span class="equivalencia"><b>B</b></span><br><span class="notas">E<br>Mi</span></div>
+          <div class="key black" id="F1sharp"><span class="equivalencia"><b>M</b></span><span class="notas">F#<br>G&#x266d;<br>Fa#<br>Sol&#x266d;</span></div>
+          <div class="key white" id="G1"><span class="equivalencia"><b>A</b></span><br><span class="notas">G<br>Sol</span></div>
+          <div class="key black" id="G1sharp"><span class="equivalencia"><b>S</b></span><span class="notas">G#<br>A&#x266d;<br>Sol#<br>La&#x266d;</span></div>
+          <div class="key white" id="A1"><span class="equivalencia"><b>D</b></span><br><span class="notas">A<br>La</span></div>
+          <div class="key black" id="A1sharp"><span class="equivalencia"><b>F</b></span><span class="notas">A#<br>B&#x266d;<br>La#<br>Si&#x266d;</span></div>
+          <div class="key white" id="B1"><span class="equivalencia"><b>G</b></span><br><span class="notas">B<br>Si</span></div>
+          <div class="key white" id="C2"><span class="equivalencia"><b>H</b></span><br><span class="notas">C<br>Do</span></div>
+          <div class="key black" id="C2sharp"><span class="equivalencia"><b>J</b></span><span class="notas">C#<br>D&#x266d;<br>Do#<br>Re&#x266d;</span></div>
+          <div class="key white" id="D2"><span class="equivalencia"><b>K</b></span><br><span class="notas">D<br>Re</span></div>
+          <div class="key black" id="D2sharp"><span class="equivalencia"><b>L</b></span><span class="notas">D#<br>E&#x266d;<br>Re#<br>Mi&#x266d;</span></div>
+          <div class="key white" id="E2"><span class="equivalencia"><b>Q</b></span><br><span class="notas">E<br>Mi</span></div>
+          <div class="key white" id="F2"><span class="equivalencia"><b>W</b></span><br><span class="notas">F<br>Fa</span></div>
+          <div class="key black" id="F2sharp"><span class="equivalencia"><b>E</b></span><span class="notas">F#<br>G&#x266d;<br>Fa#<br>La&#x266d;</span></div>
+          <div class="key white" id="G2"><span class="equivalencia"><b>R</b></span><br><span class="notas">G<br>Sol</span></div>
+          <div class="key black" id="G2sharp"><span class="equivalencia"><b>T</b></span><span class="notas">G#<br>A&#x266d;<br>Sol#<br>La&#x266d;</span></div>
+          <div class="key white" id="A3"><span class="equivalencia"><b>Y</b></span><br><span class="notas">A<br>La</span></div>
+          <div class="key black" id="A3sharp"><span class="equivalencia"><b>U</b></span><span class="notas">A#<br>B&#x266d;<br>La#<br>Si&#x266d;</span></div>
+          <div class="key white" id="B3"><span class="equivalencia"><b>I</b></span><br><span class="notas">B<br>Si</span></div>
+        </div>
+      </div>
+    </section>
+  <div class="audio">
+<audio id="clave01" src="sonidos/clave01.mp3"></audio>
+<audio id="clave02" src="sonidos/clave02.mp3"></audio>
+<audio id="clave03" src="sonidos/clave03.mp3"></audio>
+<audio id="clave04" src="sonidos/clave04.mp3"></audio>
+<audio id="clave05" src="sonidos/clave05.mp3"></audio>
+<audio id="clave06" src="sonidos/clave06.mp3"></audio>
+<audio id="clave07" src="sonidos/clave07.mp3"></audio>
+<audio id="clave08" src="sonidos/clave08.mp3"></audio>
+<audio id="clave09" src="sonidos/clave09.mp3"></audio>
+<audio id="clave10" src="sonidos/clave10.mp3"></audio>
+<audio id="clave11" src="sonidos/clave11.mp3"></audio>
+<audio id="clave12" src="sonidos/clave12.mp3"></audio>
+<audio id="clave13" src="sonidos/clave13.mp3"></audio>
+<audio id="clave14" src="sonidos/clave14.mp3"></audio>
+<audio id="clave15" src="sonidos/clave15.mp3"></audio>
+<audio id="clave16" src="sonidos/clave16.mp3"></audio>
+<audio id="clave17" src="sonidos/clave17.mp3"></audio>
+<audio id="clave18" src="sonidos/clave18.mp3"></audio>
+<audio id="clave19" src="sonidos/clave19.mp3"></audio>
+<audio id="clave20" src="sonidos/clave20.mp3"></audio>
+<audio id="clave21" src="sonidos/clave21.mp3"></audio>
+<audio id="clave22" src="sonidos/clave22.mp3"></audio>
+<audio id="clave23" src="sonidos/clave23.mp3"></audio>
+<audio id="clave24" src="sonidos/clave24.mp3"></audio>
+</div>
+<script src="./script.js"></script>
+
 </body>
+
 </html>

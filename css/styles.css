@@ -1,33 +1,193 @@
+body {
+  background-image:url('../imagen/fondo.png');
+  background-size: cover;
+background-repeat: center;
+}
+.container {
+  width: 960px;
+  margin:auto;
+}
+@media screen and (max-width: 480px) {
+  .container {
+      width: 100%;
+  }
+}
+nav ul {
+  list-style: none;
+  font-family: Italic;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+} 
+nav li {
+  display: inline-block;
+  position:relative;
 
-.piano {
+}
+nav a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color:yellow;
+}
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+nav ul ul li {
+  display: block;
+  width: 200px;
+  z-index: 3;
+}
+nav li:hover > ul {
+  display: block;
+}
+.contenedorrr{
   display: flex;
-}
-
-.key {
-  width: 50px;
-  height: 200px;
-  border: 1px solid black;
-}
-
-.white {
-  background-color: white;
-  height: 50vh;
-  margin: 1px;
-  color: black;
+  justify-content: center;
+  margin-top: 7em;
+  }
+  .piano{
+  width: 80vh;
+  height: 40vh;
+  background: #cc2d2d;
+  border-radius: 2%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-}
-
-.black {
-  background-color: black;
-  margin-left: -25px;
-  margin-right: -25px;
-  z-index: 2;
-  color: white;
+  padding: 2vh;
+  }
+  .controlespiano{
+  height: 30%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
-}
+  justify-content: space-evenly;
+  }
+  .volume-slider input{
+    accent-color: black;
+  }
+  .column {
+    display: flex;
+    align-items: center;
+  }
+  .column input{
+    border-radius: 30px;
+  }
+  .keys-checkbox input, .notes-checkbox input, .onoff-checkbox input{
+    height: 30px;
+    width: 60px;
+    cursor: pointer;
+    appearance: none;
+    position: relative;
+    background: #4B4B4B
+  }
+  .keys-checkbox input::before, .notes-checkbox input::before, .onoff-checkbox input::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 2px;
+    width: 35%;
+    height:75%;
+    border-radius: 50%;
+    background: #8c8c8c;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+  }
+  .keys-checkbox input:checked::before, .notes-checkbox input:checked::before, .onoff-checkbox input:checked::before {
+    left: 35px;
+    background: #7c0f0f;
+  }
+  
+  .piano-keys{
+  height: 95%;
+  border-top: 4px solid #b4a490;
+  padding: 2%;
+  display: flex;
+  }
+  .piano-keys .key {
+      width: calc(100%/14);
+      height: 50%;
+      border-radius: 4px;
+      display: flex;
+  }
+  .piano-keys {
+    display: flex;
+    list-style: none;
+    margin-top: 2%;
+  
+  }
+  .piano-keys .key {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    padding-bottom: 1%;
+  }
+  .piano-keys .black {
+    z-index: 2;
+    height: 50%;
+    margin: 0 -3.5% 0 -3.5%;
+    border-radius: 0 0 5px 5px;
+    background-color: black;
+    background-image:
+      linear-gradient(to right, black 0 4px, transparent 4px),
+      linear-gradient(to left, black 0 4px, transparent 4px),
+      linear-gradient(to top, transparent 0 5px, #fffc 4px 5px, transparent 8px);
+  }
+  .piano-keys .white {
+    height: 100%;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(#fff 96%, #eee 4%);
+  }
+  .white {
+      background: white;
+      height: 100%;
+      border-left: 3px solid #fff;
+      border-right: 3px solid #aaa;
+      border: 1px solid black;
+      box-shadow: 0 3px 3px #0004;
+      margin: 0.5px;
+      color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      & .equivalencia {
+        font-size: large;
+        color: orange;
+      }
+      
+  }
+  .black {
+      background-color: black;
+      height: 50%;
+      background-image:
+      linear-gradient(to right, black 0 4px, transparent 4px),
+      linear-gradient(to left, black 0 4px, transparent 4px),
+      linear-gradient(to top, transparent 0 5px, #fffc 4px 5px, transparent 8px);
+      margin-left: -25%;
+      margin-right: -25%;
+      z-index: 2;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      & .equivalencia {
+        font-size: larger;
+        color: orange;
+      
+      }
+  }
+  
+  .hide{
+    display: none;
+  }
+  
+  
+  @media screen and (max-width:480px){
+    .contenedorrr{
+      transform: rotate(90deg);
+    }
+  }
