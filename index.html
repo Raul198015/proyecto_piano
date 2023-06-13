@@ -8,8 +8,49 @@
     <title>Document</title>
 </head>
 
-
-<div class="audio">
+<body>
+  <section class="contenedorrr">
+      <div class="piano">
+        <div class="controlespiano">
+          <div class="column volume-slider">
+            <span>Volumen</span><input type="range" min="0" max="1" value="0.5" step="any">
+          </div>
+          <div class="column keys-checkbox">
+            <span>Mostrar teclas</span><input type="checkbox" checked>
+          </div>
+          <div class="column notes-checkbox">
+            <span>Mostrar notas</span><input type="checkbox" checked>
+          </div>
+        </div>
+        <div class="piano-keys">
+          <div class="key white" id="C1"><span class="equivalencia"><b>Z</b></span><br><span class="notas">C<br>Do</span></div>
+          <div class="key black" id="C1sharp"><span class="equivalencia"><b>X</b></span><span class="notas">C#<br>D&#x266d;<br>Do#<br>Re&#x266d;</span></div>
+          <div class="key white" id="D1"><span class="equivalencia"><b>C</b></span><br><span class="notas">D<br>Re</span></div>
+          <div class="key black" id="D1sharp"><span class="equivalencia"><b>V</b></span><span class="notas">D#<br>E&#x266d;<br>Re#<br>Mi&#x266d;</span></div>
+          <div class="key white" id="F1"><span class="equivalencia"><b>N</b></span><br><span class="notas">F<br>Fa</span></div>
+          <div class="key white" id="E1"><span class="equivalencia"><b>B</b></span><br><span class="notas">E<br>Mi</span></div>
+          <div class="key black" id="F1sharp"><span class="equivalencia"><b>M</b></span><span class="notas">F#<br>G&#x266d;<br>Fa#<br>Sol&#x266d;</span></div>
+          <div class="key white" id="G1"><span class="equivalencia"><b>A</b></span><br><span class="notas">G<br>Sol</span></div>
+          <div class="key black" id="G1sharp"><span class="equivalencia"><b>S</b></span><span class="notas">G#<br>A&#x266d;<br>Sol#<br>La&#x266d;</span></div>
+          <div class="key white" id="A1"><span class="equivalencia"><b>D</b></span><br><span class="notas">A<br>La</span></div>
+          <div class="key black" id="A1sharp"><span class="equivalencia"><b>F</b></span><span class="notas">A#<br>B&#x266d;<br>La#<br>Si&#x266d;</span></div>
+          <div class="key white" id="B1"><span class="equivalencia"><b>G</b></span><br><span class="notas">B<br>Si</span></div>
+          <div class="key white" id="C2"><span class="equivalencia"><b>H</b></span><br><span class="notas">C<br>Do</span></div>
+          <div class="key black" id="C2sharp"><span class="equivalencia"><b>J</b></span><span class="notas">C#<br>D&#x266d;<br>Do#<br>Re&#x266d;</span></div>
+          <div class="key white" id="D2"><span class="equivalencia"><b>K</b></span><br><span class="notas">D<br>Re</span></div>
+          <div class="key black" id="D2sharp"><span class="equivalencia"><b>L</b></span><span class="notas">D#<br>E&#x266d;<br>Re#<br>Mi&#x266d;</span></div>
+          <div class="key white" id="E2"><span class="equivalencia"><b>Q</b></span><br><span class="notas">E<br>Mi</span></div>
+          <div class="key white" id="F2"><span class="equivalencia"><b>W</b></span><br><span class="notas">F<br>Fa</span></div>
+          <div class="key black" id="F2sharp"><span class="equivalencia"><b>E</b></span><span class="notas">F#<br>G&#x266d;<br>Fa#<br>La&#x266d;</span></div>
+          <div class="key white" id="G2"><span class="equivalencia"><b>R</b></span><br><span class="notas">G<br>Sol</span></div>
+          <div class="key black" id="G2sharp"><span class="equivalencia"><b>T</b></span><span class="notas">G#<br>A&#x266d;<br>Sol#<br>La&#x266d;</span></div>
+          <div class="key white" id="A3"><span class="equivalencia"><b>Y</b></span><br><span class="notas">A<br>La</span></div>
+          <div class="key black" id="A3sharp"><span class="equivalencia"><b>U</b></span><span class="notas">A#<br>B&#x266d;<br>La#<br>Si&#x266d;</span></div>
+          <div class="key white" id="B3"><span class="equivalencia"><b>I</b></span><br><span class="notas">B<br>Si</span></div>
+        </div>
+      </div>
+    </section>
+  <div class="audio">
 <audio id="clave01" src="sonidos/clave01.mp3"></audio>
 <audio id="clave02" src="sonidos/clave02.mp3"></audio>
 <audio id="clave03" src="sonidos/clave03.mp3"></audio>
@@ -35,7 +76,6 @@
 <audio id="clave23" src="sonidos/clave23.mp3"></audio>
 <audio id="clave24" src="sonidos/clave24.mp3"></audio>
 </div>
-
-<script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
