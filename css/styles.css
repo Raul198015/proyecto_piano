@@ -16,7 +16,7 @@ flex-direction: column;
 }
 nav ul {
   list-style: none;
-  font-family: metallic3;
+  font-family: cursive;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -200,7 +200,7 @@ nav li:hover > ul {
     align-items:center ;
     color:yellow;
     font-style: oblique;
-    font-family: metallic3;
+    font-family: cursive;
     font-size: 1.5rem;
     margin-top:5%;
     margin-left: 25%;
@@ -220,7 +220,7 @@ nav li:hover > ul {
     flex-direction: column;
     justify-content:center;    
     align-items: center;
-    font-family: metallic3;
+    font-family: cursive;
     font-size:large;
     color:yellow;
        }
@@ -240,5 +240,5 @@ nav li:hover > ul {
     }
     
     .titulo{
-      margin-top: 7%;
+      margin-top: 10%;
     }
