@@ -15,10 +15,14 @@ Se ha creado un teclado virtual mediante HTML,  los estilos de las teclas se han
 
 
 
-Se ha creado una Navbar mediante HTML, CSS y JavaScript, con menús desplegables que enlazan con:  
+Se ha creado una Navbar mediante HTML, CSS y JavaScript, con menús desplegables que enlazan con:
+
 Inicio,
-Quienes somos: “Historia” Contactos”, 
-Canciones con ayudas para tocar el piano, 
+
+Quienes somos: “Historia” Contactos”,
+
+Canciones con ayudas para tocar el piano,
+
 Cursos con tutoriales para aprender a tocar el piano.
 
 
