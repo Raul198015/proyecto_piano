@@ -16,7 +16,7 @@ flex-direction: column;
 }
 nav ul {
   list-style: none;
-  font-family: cursive;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -200,7 +200,7 @@ nav li:hover > ul {
     align-items:center ;
     color:yellow;
     font-style: oblique;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5rem;
     margin-top:5%;
     margin-left: 25%;
@@ -230,7 +230,7 @@ nav li:hover > ul {
       text-align: center;
       font-weight: bold;
       font-family:metallic3;
-      font-size:300%;
+      font-size:400%;
       }
       
     @font-face {
