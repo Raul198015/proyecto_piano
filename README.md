@@ -55,4 +55,4 @@ Enlaces con tutoriales para piano
 Se ha creado un footer con información sobre la WEB y el proyecto 
 
 
-![Alt text](imagen/Navbar.jpg)
+![Alt text](imagen/Footer.jpg)
