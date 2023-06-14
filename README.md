@@ -11,7 +11,7 @@ Se ha implementa el proyecto utilizando la metodología SCRUM con TRELLO.
 
 Se ha creado un teclado virtual mediante HTML,  los estilos de las teclas se han creado mediante CSS y se han implementado las funciones del teclado mediante JavaScript. El teclado funciona con clic del ratón en las diferentes teclas del piano o con pulsaciones en las letras del teclado del ordenador, las teclas, las letras del teclado y las notas del piano cambian de color con los clics del ratón y con las pulsaciones en las letras del teclado del ordenador. También se ha colocado un botón para mostrar u ocultar las nomenclaturas de las teclas y otro botón para mostrar y ocultar las notas de las teclas
 
-C:\Users\ALBERT\Desktop\Proyecto musica\proyecto_piano\imagen\PIANO1.jpg
+![Alt text](imagen/PIANO1.jpg)
 
 
 
@@ -23,7 +23,7 @@ Cursos con tutoriales para aprender a tocar el piano.
 
 
 
-C:\Users\ALBERT\Desktop\Proyecto musica\proyecto_piano\imagen\Navbar.jpg
+![Alt text](imagen/Navbar.jpg)
 
 
 
@@ -51,4 +51,4 @@ Enlaces con tutoriales para piano
 Se ha creado un footer con información sobre la WEB y el proyecto 
 
 
-C:\Users\ALBERT\Desktop\Proyecto musica\proyecto_piano\imagen\Footer.jpg
+![Alt text](imagen/Navbar.jpg)
