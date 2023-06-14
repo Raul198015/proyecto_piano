@@ -242,3 +242,15 @@ nav li:hover > ul {
     .titulo{
       margin-top: 10%;
     }
+article{
+  width: 80%;
+  justify-content: center;
+  text-align: justify;
+  font-size: x-large;
+  background-color: #4B4B4Bcc;
+  border-radius: 3vh;
+  margin-top: 5%;
+  margin-left: 8%;
+  color: white;
+  padding: 2%;
+}
